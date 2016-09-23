@@ -12,7 +12,7 @@ This script is additional to available GUnifrac package by Dr Chen Jun. It will 
 
 Job 1: Rscript run.R 2
 ....
-Job n-1: Rscript run.R n-1.
+Job n-1: Rscript run.R n.
 
 * Submit n-1 jobs to cluster.
 
