@@ -1,4 +1,4 @@
-Cluster_Unifrac
+# Cluster_Unifrac
 
 ## Description
 This script is addition to available GUnifrac package by Dr Chen Jun. It will separate the calculation of unifrac distances to multiple jobs. 
