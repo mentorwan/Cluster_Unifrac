@@ -1,5 +1,7 @@
+load("./otu.RData")
+
 alpha <- c(0,0.5,1)
-n <- nrow(otu.tab)
+n <- nrow(otu.tab.rff)
 
 dimname3 <- c(paste("d", alpha, sep="_"), "d_UW", "d_VAW")
 unifracs <- array(NA, c(n, n, length(alpha)+2),
@@ -8,7 +10,7 @@ unifracs <- array(NA, c(n, n, length(alpha)+2),
 
 for (i in 2:n){
   
-con <- file(paste("/data/wany/R/test",i,".RData",sep=""),"rb")
+con <- file(paste("/data/wany/R/unifrac",i,".RData",sep=""),"rb")
 
 load(con)
 unifracs[i,,] <- temp
