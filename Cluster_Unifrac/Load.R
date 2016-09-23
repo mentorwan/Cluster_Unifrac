@@ -10,7 +10,7 @@ unifracs <- array(NA, c(n, n, length(alpha)+2),
 
 for (i in 2:n){
   
-con <- file(paste("/data/wany/R/unifrac",i,".RData",sep=""),"rb")
+con <- file(paste("./unifrac",i,".RData",sep=""),"rb")
 
 load(con)
 unifracs[i,,] <- temp
