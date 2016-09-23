@@ -126,7 +126,7 @@ GUniFrac_single <- function (otu.tab, tree, alpha = c(0, 0.5, 1),currentrow) {
       
 	}
     temp <- unifracs[currentrow,,]
-  con <- file(paste("/data/wany/R/test",currentrow,".RData",sep=""),"wb")
+  con <- file(paste("unifrac",currentrow,".RData",sep=""),"wb")
     save(temp,file=con)
     close(con)
 	
