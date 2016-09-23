@@ -1,8 +1,10 @@
 # Cluster_Unifrac
 
+Run GUnifrac in parallel
+
 ## Description
-This script is addition to available GUnifrac package by Dr Chen Jun. It will separate the calculation of unifrac distances to multiple jobs. 
-Those jobs can be run on local cluster in parallel.  Then the results can be merged back into the big distance matrix.
+
+This script is additional to available GUnifrac package by Dr Chen Jun. It will separate the calculation of unifrac distances to multiple jobs. Those jobs can be run on local cluster in parallel.  Then the results can be merged back into the big distance matrix.
 
 ## Usage:
 
